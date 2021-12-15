@@ -47,6 +47,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
   "$<INSTALL_INTERFACE:include>"
 )
 
+target_link_libraries(${PROJECT_NAME} PUBLIC Boost::system Boost::filesystem)
 target_link_libraries(demo ${PROJECT_NAME})
 
 if(BUILD_TESTS)
