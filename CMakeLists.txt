@@ -36,7 +36,7 @@ find_package(Boost CONFIG REQUIRED system filesystem)
 
 add_library(${PROJECT_NAME} STATIC
   # enum your files and delete this comment
-        include/Broker.hpp sources/Broker.cpp)
+        include/broker.hpp sources/broker.cpp)
 
 add_executable(demo
   ${CMAKE_CURRENT_SOURCE_DIR}/demo/main.cpp

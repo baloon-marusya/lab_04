@@ -1,7 +1,7 @@
 // Copyright 2021 Trushkov Ilya ilya.tr20002@gmail.com
 #include <stdexcept>
 
-#include "Broker.hpp"
+#include "broker.hpp"
 
 Broker::Broker(std::string &name, std::string &last_date, std::string &num_acc)
     : _name(name)
