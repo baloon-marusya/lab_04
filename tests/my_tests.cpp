@@ -1,4 +1,4 @@
-// Copyright 2021 Your Name <your_email>
+// Copyright 2021 Melnikova Maria dandelion.m@mail.ru
 #include <gtest/gtest.h>
 
 #include "broker.hpp"
