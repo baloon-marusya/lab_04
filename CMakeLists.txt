@@ -27,7 +27,6 @@ string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")
 string(APPEND CMAKE_CXX_FLAGS " -Wshadow -Wnon-virtual-dtor")
 
 # new versions of cmake contain gtest search files
-# commented out to increase the build speed.
 hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
 
