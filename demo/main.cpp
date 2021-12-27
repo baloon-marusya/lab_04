@@ -1,3 +1,5 @@
+// Copyright 2021 Melnikova Maria dandelion.m@mail.ru
+
 #include "broker.hpp"
 
 int main(int argc, char* argv[]) {
