@@ -1,6 +1,6 @@
 // Copyright 2021 Melnikova Maria dandelion.m@mail.ru
-#ifndef TEMPLATE_BROKER_HPP
-#define TEMPLATE_BROKER_HPP
+#ifndef INCLUDE_BROKER_HPP_
+#define INCLUDE_BROKER_HPP_
 
 #include <iostream>
 #include <regex>
@@ -23,4 +23,4 @@ class Broker {
   void print();
 };
 
-#endif  // TEMPLATE_BROKER_HPP
+#endif  // INCLUDE_BROKER_HPP_
